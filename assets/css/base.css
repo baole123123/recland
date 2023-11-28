@@ -1,0 +1,70 @@
+:root {
+   --primary: #021a84;
+   --secondary: #fe4c4c;
+   --text: #171717;
+   --dark-primary: #010d42;
+   --gray: #999;
+   --background: #f2f2f2;
+   --light-gray: #e5e5e5;
+   --green-text: #156d33;
+   --purple-text: #021a84;
+   --red-text: #e5532a;
+   --green-gradient: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.6),
+      rgba(255, 255, 255, 0.6)
+   ),
+   #2ada66;
+   --purple-gradient: linear-gradient(
+    0deg,
+    rgba(255, 255, 255, 0.6),
+    rgba(255, 255, 255, 0.6)
+   ),
+   #021a84;
+   --red-gragient: linear-gradient(
+    0deg,
+    rgba(255, 255, 255, 0.6),
+    rgba(255, 255, 255, 0.6)
+   ),
+   #e5532a;
+}
+
+html, 
+body {
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    background-color: var(--background);
+}
+.wrapper{
+    max-width: 1160px;
+    width: 100%;
+    margin-inline: auto;
+}
+
+/* button style */
+.btn{
+    height: 44px;
+    min-width: 149px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 8px 16px;
+    color: inherit;
+}
+.btn-border{
+    border: 1px solid var(--primary);
+    border-radius: 8px;
+    color: var(--primary);
+}
+.btn-solid{
+    border-radius: 8px;
+    background-color: var(--primary);
+    color: white;
+}
+.heading{
+    color: var(--dark-primary);
+    font-size: 34px;
+    font-weight: 700;
+}
